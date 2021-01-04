@@ -1,0 +1,21 @@
+#cart-container {
+  width: 450px;
+  height: 3000px;
+  background: #1c1a20;
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 65px;
+  right: -7px;
+  /* display: none; */
+}
+
+.cart-open {
+  transition: display ease-in-out 3s;
+  width: 100%;
+}
+
+.cart-hide {
+  display: none;
+  transition: display ease-in-out 3s;
+}

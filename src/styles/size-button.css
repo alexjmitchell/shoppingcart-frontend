@@ -1,0 +1,19 @@
+button.size-button {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  margin: 4px;
+  border: none;
+  background-color: #ececec;
+  cursor: pointer;
+  outline: none;
+}
+
+button.size-button:hover {
+  border: black 1px solid;
+}
+
+button.size-button:focus {
+  color: white;
+  background: black;
+}

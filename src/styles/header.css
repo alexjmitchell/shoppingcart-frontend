@@ -1,0 +1,24 @@
+.header-nav {
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+i {
+  color: white;
+  padding-right: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  background: black;
+  text-align: center;
+  font-size: 30px !important;
+  cursor: pointer;
+}
+
+#shopping-cart {
+  background: black;
+  height: 60px;
+  outline: none;
+}

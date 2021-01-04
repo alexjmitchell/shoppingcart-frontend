@@ -1,0 +1,37 @@
+.card-container {
+  width: 500px;
+  margin: auto;
+}
+
+h6 {
+  margin: 0;
+  padding: 0;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.cart-display {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  justify-items: center;
+  margin-bottom: 25px;
+  padding: 5px;
+  border-bottom: 1px solid white;
+}
+.cart-card-details {
+  display: grid;
+  justify-items: center;
+  grid-column: 2 / 3;
+}
+
+.cart-card-details button {
+  width: 40%;
+}
+
+.card-image {
+  width: 75px;
+  height: 120px;
+  grid-column: 1;
+}
